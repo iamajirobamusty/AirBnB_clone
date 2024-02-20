@@ -5,3 +5,7 @@ footer {
   text-align: center;
   margin-top: 100%;
 }
+
+p {
+  display: inline-block;
+}
