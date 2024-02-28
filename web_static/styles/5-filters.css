@@ -1,23 +1,22 @@
 .locations, .amenities {
+    float: left;
     height: 100%;
     width: 25%;
-    float: left;
-    text-align: left;
-    margin-left: 20px;
-}
-.locations {
+ }
+.filters .locations {
     border-right: 1px solid #DDDDDD;
 }
- h3 {
-    font-weight: 600;
-    margin-bottom: 0;
-    margin-left: 0;
-    color: black;
-}
-h4 {
+.filters .locations h4, .filters .amenities h4 {
     font-weight: 400;
     font-size: 14px;
+    display: inline-block;
     margin-top: 0;
-    color: black;
-
+    padding-top: 0;
+    position: inherit;
+    top: 0;
+}
+.filters .locations h3, .filters .amenities h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
