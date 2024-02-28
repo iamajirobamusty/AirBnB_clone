@@ -142,3 +142,5 @@ class HBNBCommand(cmd.Cmd):
             args[1] = args[1].replace('"', "")
         key = args[0] + '.' + args[1]
         print(d[key])
+if __name__ == '__main__':
+    HBNBCommand().cmdloop()
